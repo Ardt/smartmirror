@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![MagicMirror²: The open source modular smart mirror platform. ](.github/header.png)
 
 <p align="center">
@@ -171,3 +172,6 @@ Thanks for your help in making MagicMirror² better!
 <br>
 	<a href="https://forum.magicmirror.builders/topic/728/magicmirror-is-voted-number-1-in-the-magpi-top-50"><img src="https://magicmirror.builders/img/magpi-best-watermark-custom.png" width="150" alt="MagPi Top 50"></a>
 </p>
+=======
+# smartmirror
+>>>>>>> 4a21e4f7dedcf1d41865b4b620f9f66a651689be
