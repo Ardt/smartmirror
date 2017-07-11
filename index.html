@@ -18,6 +18,31 @@
 	<script type="text/javascript">
 		var version = "#VERSION#";
 	</script>
+
+<script src = "https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+
+<!-- responsivevoice.js -->
+<script src= "http://code.responsivevoice.org/responsivevoice.js"></script>
+<script src= "text/javascript">
+	function say(){
+		if(responsiveVoice.voiceSupport()){
+			console.log("Responsive Voice Supported");
+			responsiveVoice.speak("테스트", "Korean Female");
+		}
+	}
+</script>
+
+
+<script>
+$(document).ready(function(){
+		if(responsiveVoice.voiceSupport()){
+			console.log("Responsive Voice Supported");
+			responsiveVoice.speak("환영합니다 고객님 사랑해요 고객님", "Korean Female");
+		}
+	} )
+</script>
+
 </head>
 <body>
 	<div class="region fullscreen below"><div class="container"></div></div>
@@ -50,5 +75,7 @@
 	<script type="text/javascript" src="js/loader.js"></script>
 	<script type="text/javascript" src="js/socketclient.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+
+
 </body>
 </html>

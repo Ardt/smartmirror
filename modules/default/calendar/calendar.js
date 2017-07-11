@@ -31,7 +31,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+				url: "https://calendar.google.com/calendar/ical/shinhybi%40gmail.com/private-64fa82b06c771c6c605fa706387c1b31/basic.ics",
 			},
 		],
 		titleReplace: {
